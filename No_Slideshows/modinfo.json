@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "No_Slideshows",
+    "name": "No Slideshows (Crafting & Construction)",
+    "authors": [ "N4" ],
+    "license": "CC-BY-SA 4.0",
+    "maintainers": [ "N4" ],
+    "description": "Adds the odd watch, a craftable item to toggle Debug Hammertime on demand with minimal inputs for lowest-end computers and mobiles.\nCrafted anywhere without components from the Other category.",
+    "category": "rebalance",
+    "dependencies": [ "bn" ]
+  }
+]

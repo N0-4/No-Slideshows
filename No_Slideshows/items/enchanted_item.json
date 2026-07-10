@@ -1,0 +1,81 @@
+[
+   {
+    "id": "ns_watch",
+    "type": "TOOL_ARMOR",
+    "name": "odd watch",
+	"looks_like": "silver_watch",
+    "description": "An odd watch that makes tedious tasks appear to fly by fast.\nMakes crafting and construction instantaneous, use responsibly!",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": "0 USD",
+    "material": [ "steel" ],
+    "symbol": "[",
+    "color": "light_red",
+    "coverage": 0,
+    "warmth": 0,
+    "flags": [
+      "ONLY_ONE",
+	  "UNBREAKABLE",
+	  "AURA",
+      "SEMITANGIBLE",
+      "OVERSIZE",
+      "POWERARMOR_COMPATIBLE",
+      "COMPACT",
+	  "TRADER_AVOID",
+	  "NONCONDUCTIVE"
+    ],
+	"use_action": [
+	  {
+      "target": "ns_watch2",
+      "msg": ".",
+      "active": true,
+      "menu_text": "Activate",
+      "type": "transform"
+	  }
+	],
+  },
+  {
+    "id": "ns_watch2",
+    "type": "TOOL_ARMOR",
+    "name": "odd watch (active)",
+	"looks_like": "silver_watch",
+    "description": "An odd watch that makes tedious tasks appear to fly by fast. It is currently active.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": "0 USD",
+    "material": [ "steel" ],
+    "symbol": "[",
+    "color": "light_red",
+    "coverage": 0,
+    "warmth": 0,
+    "flags": [
+      "ONLY_ONE",
+	  "UNBREAKABLE",
+	  "AURA",
+      "SEMITANGIBLE",
+      "OVERSIZE",
+      "POWERARMOR_COMPATIBLE",
+      "COMPACT",
+	  "TRADER_AVOID",
+	  "NONCONDUCTIVE"
+    ],
+	"use_action": [
+	  {
+      "target": "ns_watch",
+      "msg": ".",
+      "active": false,
+      "menu_text": "Deactivate",
+      "type": "transform"
+	  }
+	],
+	"relic_data": {
+      "passive_effects": [
+        {
+		  "id": "ench_ht",
+          "has": "WORN",
+          "condition": "ALWAYS"
+        }, 
+      ]
+    }
+  }
+]

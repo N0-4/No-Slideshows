@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ench_ht",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [
+	  "DEBUG_HTS"
+    ]
+  }
+]

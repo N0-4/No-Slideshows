@@ -1,0 +1,14 @@
+[
+  {
+    "type": "mutation",
+    "id": "DEBUG_HTS",
+    "name": { "str": "Debug Hammertime & Speed" },
+    "points": 99,
+    "valid": false,
+    "description": "Crafting and construction are practically instant.",
+    "debug": true,
+    "crafting_speed_modifier": 9999,
+	"speed_modifier": 100,
+    "construction_speed_modifier": 9999
+  }
+]
